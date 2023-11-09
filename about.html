@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="icon" type="image/x-icon" href="images/miettitle.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    
+</head>
+ 
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                  <li><a href="index.html">HOME</a></li>
+                 <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="course.html">COURSE</a></li>
+                 <li><a href="blog.html">BLOG</a></li>
+                 <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    
+<!------------ About Us Content -------------->
+    
+<section class="about-us">
+    
+    <div class="row">
+    <div class="about-col">
+        <h1>We are the world's largest university</h1>
+        <p>Modern Institute of Engineering & Technology (MIET) started its journey in 2010. MIET pursues not only academic excellence but a value based system to provide a conducive environment for overall personality development of students. Apart from providing quality teaching, the faculty members are continuously engaged in the holistic grooming of students. Amidst the lush green, pollution free campus with the state of art infrastructure at the 430-year old historic city of Bandel in the state of West Bengal, it is an honour to host brilliant young minds from across the country.
+
+At MIET, students can thrive in an atmosphere of intellectual enterprise, successfully accomplishing their quest for knowledge assimilation, generation, and dissemination with a sense of social responsibility. We aspire to produce global technocrats. Our mission is to create a breed of qualified, innovative and dynamic professionals for corporate sectors, service industry, academic & research institutions. While students, curriculum, and faculty comprise the three strongest pillars of our system; enthusiasm, passion and a driving compulsion to excel form the soul of our movement.
+
+We strive to create a congenial and secure environment for our students and are dedicated to the cause of imparting education, the strength to dream and exercise one’s potential to the fullest during their years in college and in the multifarious realms of their careers. I am certain you will enjoy every moment of your tenure with the institution. I wish all students happiness and may you carry the memories of your years here to your life beyond.
+
+<br><br><strong>Mr. Rana Deb</strong>
+
+<br><br><strong>Founding Chairman and Managing Director</strong></p>
+        <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+    </div>
+    <div class="about-col">
+        <img src="images/md-300x300.jpg">
+<!--        <img src="photo.jpg"  style="border-radius: 70%">-->
+      </div>
+    </div>
+    </section>
+    <!---- Section to insert the video ------------------->
+  <section class="sub-header2">
+    <h1> Why Study in our College?</h1>
+    <table>
+        <tr id="row1">
+            <!-- <td>
+                <audio src="deva_song.mp3.mp3" controls></audio>
+            </td> -->
+            <td>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, sequi? Quam quis minima nobis <br>necessitatibus dolorum veritatis harum voluptatem enim est cumque ullam autem velit dolores <br>quia ipsa laboriosam beatae qui, quas rerum ducimus. Aliquam dolorem ad consequatur ipsam<br> sint et, dignissimos, amet facilis accusamus vel nobis suscipit, laborum fugiat.
+                    Lorem ipsum dolor <br>sit ad consequatur ipsam sint et, dignissimos, amet facilis accusamus vel nobis suscipit, laborum fugiat.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, earum.
+
+                </p>
+            </td>
+            
+            
+            
+            <td id="video1" >
+                <video src="mietvideo.mp4" controls height="250px" width="400px" margin-left = 20px></video>
+            </td>
+        </tr>
+    </table>
+    </section>
+    
+<!------ Footer ----->    
+    
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing <br>industries for previewing layouts and visual mockups.</p>
+    <div class="icons">
+         <i class="fa fa-facebook"></i>
+         <i class="fa fa-twitter"></i>
+         <i class="fa fa-instagram"></i>
+         <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart"></i> by Rahul Sharma</p>
+</section>    
+    
+    
+    
+    
+    
+    
+<!------------ Javascript for Toggle Menu ---------->    
+    
+<script>
+    var navLinks = document.getElementById("navLinks");   
+  
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+ </script>    
+
+    
+</body>
+
+</html>
